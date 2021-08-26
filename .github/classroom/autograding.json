@@ -3,7 +3,7 @@
     {
       "name": "Testing 1",
       "setup": "",
-      "run": "dart bin/hello_world.dart",
+      "run": "dart bin/dart_template.dart",
       "input": "",
       "output": "Hello world",
       "comparison": "included",
