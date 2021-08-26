@@ -1,2 +1,2 @@
-# dart-template
-It's a template for dart examples in classroom
+A sample command-line application with an entrypoint in `bin/`, library code
+in `lib/`, and example unit test in `test/`.

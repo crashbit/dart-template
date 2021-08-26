@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "Testing 1",
+      "setup": "",
+      "run": "dart bin/hello_world.dart",
+      "input": "",
+      "output": "Hello world",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    }
+  ]
+}

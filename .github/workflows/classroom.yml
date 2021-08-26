@@ -1,0 +1,25 @@
+    name: GitHub Classroom Workflow
+    on:
+      push:
+        branches: [ main ]
+      pull_request:
+        branches: [ main ]
+
+    jobs:
+      build:
+        runs-on: ubuntu-latest
+        steps:
+          - uses: actions/checkout@v2
+          - uses: dart-lang/setup-dart@v1
+
+          - name: Install dependencies
+            run: dart pub get
+        
+          - uses: education/autograding@v1
+
+          - name: Hello world
+            run: dart bin/dart_template.dart
+
+
+
+
